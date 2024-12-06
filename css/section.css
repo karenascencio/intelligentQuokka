@@ -1,0 +1,42 @@
+h3:hover::after {
+	content: "  ✿";
+	text-align: center;
+}
+
+#main-section {
+	display: flex;
+	justify-content: center;
+	padding: 120px 60px 0px 60px;
+  margin-top: var(--nav-height);
+}
+
+article {
+	max-width: 1200px;
+	animation: fadeInArticle 10s;
+}
+
+.section-title {
+	font-size: var(--font-size-headlines);
+	color: var(--main-indigo);
+	font-family: var(--name-font);
+}
+
+p {
+	color: var(--main-indigo);
+	font-family: var(--paragraph-font);
+	font-weight: 300;
+	font-size: var(--font-size-body);
+	max-width: 900px;
+}
+
+.about-image {
+	width: auto;
+	height: 450px;
+	border-radius: 58% 87% 45% 95% / 83% 64% 27% 46%;
+}
+
+.about-me-section {
+	display: flex;
+	gap: 10%;
+	align-items: center;
+}

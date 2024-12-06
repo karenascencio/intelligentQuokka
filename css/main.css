@@ -1,0 +1,31 @@
+@import "./curtain.css";
+@import "./header.css";
+@import "./section.css";
+
+:root {
+	--main-cream: #faf9f6;
+  --main-lavender: rgb(178, 148, 233);
+  --main-blush: rgb(238, 174, 202);
+  --main-cerulean: rgb(148, 203, 233);
+  --main-indigo: rgb(60, 60, 90);
+
+	--blur: 1rem;
+	--font-size-name: 3rem;
+  --font-size-nav: 1.5rem;
+  --font-size-nav-links: 1.25rem;
+	--ls: clamp(-1.75px, -0.25vw, -3.5px);
+
+  --name-font: "Playfair Display", serif;
+  --curtain-font: "Playwrite CO", cursive;
+  --paragraph-font: "Montserrat", sans-serif;
+
+  --font-size-headlines: 34px;
+  --font-size-body: 16px;
+
+  --nav-height: 120px;
+}
+
+body {
+	background-color: var(--main-cream);
+  margin: 0;
+}
