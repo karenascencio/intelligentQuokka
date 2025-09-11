@@ -1,2 +1,2 @@
 # intelligentQuokka
-Portfolio
+Portfolio Vanilla JavaScript 
